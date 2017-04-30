@@ -1,28 +1,17 @@
-== README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Web Application Photo App
 
 Things you may want to cover:
 
-* Ruby version
+* Setup Authentication System
 
-* System dependencies
+* Sending Email in Production
 
-* Configuration
+* Stripe and Payment
 
-* Database creation
+* Payment Model
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+* Credit Card Forms
 
 * ...
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
