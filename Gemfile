@@ -6,7 +6,6 @@ gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
 gem 'devise'
 gem 'devise-i18n'
-gem 'thor', '0.19.4'
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 # Use SCSS for stylesheets
@@ -47,10 +46,11 @@ group :development do
   gem 'web-console', '~> 2.0'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
+  gem 'spring', group: :development
 end
 
 group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
+
